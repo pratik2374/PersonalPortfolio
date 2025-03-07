@@ -40,7 +40,7 @@ export default function Services() {
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full hover:shadow-lg transition-shadow">
+                <Card className="h-full transition-all duration-300 hover:shadow-lg hover:border-green-500 hover:border-2">
                   <CardHeader>
                     <service.icon className="w-12 h-12 mb-4 text-primary" />
                     <CardTitle>{service.title}</CardTitle>
