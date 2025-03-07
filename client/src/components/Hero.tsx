@@ -15,12 +15,12 @@ export default function Hero() {
         id="tsparticles"
         init={particlesInit}
         options={{
+          fullScreen: false,
           background: {
             color: {
               value: "#000000",
             },
           },
-          fpsLimit: 120,
           particles: {
             color: {
               value: "#ffffff",
@@ -29,15 +29,21 @@ export default function Hero() {
               color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.3,
+              opacity: 0.5,
               width: 1,
             },
+            collisions: {
+              enable: true,
+            },
             move: {
+              direction: "none",
               enable: true,
               outModes: {
                 default: "bounce",
               },
-              speed: 2,
+              random: false,
+              speed: 1,
+              straight: false,
             },
             number: {
               density: {
@@ -49,12 +55,16 @@ export default function Hero() {
             opacity: {
               value: 0.5,
             },
+            shape: {
+              type: "circle",
+            },
             size: {
               value: { min: 1, max: 3 },
             },
           },
           detectRetina: true,
         }}
+        className="absolute inset-0"
       />
       <div className="container mx-auto px-4 z-10">
         <motion.div
