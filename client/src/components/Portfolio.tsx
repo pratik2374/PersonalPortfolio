@@ -8,37 +8,37 @@ export default function Portfolio() {
       title: "Survey form",
       description: "I designed a survey form for NIT KKR which took feedback and other details from students about the institute",
       image: "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
-      link: "#",
+      link: "https://pratikgond.com",
     },
     {
       title: "Shoe website",
       description: "I also designed a shoe brand website as a commercial project and the client loved the creation and even recommended me to others.",
       image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
-      link: "#",
+      link: "https://pratikgond.com",
     },
     {
       title: "Tribute page",
       description: "A tribute page to honor Tony stark, AKA Iron man. Highlighting life milestones, and inspiring moments that reflect his legacy.",
       image: "https://images.unsplash.com/photo-1635863138275-d9b33299680b?auto=format&fit=crop&w=800&q=80",
-      link: "#",
+      link: "https://pratikgond.com",
     },
     {
       title: "Weather App",
       description: "A real-time weather application that provides accurate forecasts and beautiful visualizations of weather data.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
-      link: "#",
+      link: "https://pratikgond.com",
     },
     {
       title: "Recipe Finder",
       description: "An intuitive recipe search platform that helps users discover and save their favorite cooking recipes.",
       image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=800&q=80",
-      link: "#",
+      link: "https://pratikgond.com",
     },
     {
       title: "Task Manager",
       description: "A comprehensive task management system with features for organizing, tracking, and completing personal and team projects.",
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80",
-      link: "#",
+      link: "https://pratikgond.com",
     },
   ];
 
