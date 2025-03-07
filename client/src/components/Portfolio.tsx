@@ -43,17 +43,17 @@ export default function Portfolio() {
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 viewport={{ once: true }}
               >
-                <Card className="overflow-hidden h-full">
+                <Card className="flex flex-col h-full">
                   <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-48 object-cover"
                   />
-                  <CardContent className="p-6">
+                  <CardContent className="p-6 flex-grow">
                     <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                     <p className="text-muted-foreground">{project.description}</p>
                   </CardContent>
-                  <CardFooter className="p-6 pt-0">
+                  <CardFooter className="p-6 pt-0 mt-auto">
                     <Button asChild variant="outline" className="w-full">
                       <a href={project.link} target="_blank" rel="noopener noreferrer">
                         View Project
