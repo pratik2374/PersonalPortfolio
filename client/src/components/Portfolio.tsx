@@ -22,6 +22,24 @@ export default function Portfolio() {
       image: "https://images.unsplash.com/photo-1635863138275-d9b33299680b?auto=format&fit=crop&w=800&q=80",
       link: "#",
     },
+    {
+      title: "Weather App",
+      description: "A real-time weather application that provides accurate forecasts and beautiful visualizations of weather data.",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
+      link: "#",
+    },
+    {
+      title: "Recipe Finder",
+      description: "An intuitive recipe search platform that helps users discover and save their favorite cooking recipes.",
+      image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=800&q=80",
+      link: "#",
+    },
+    {
+      title: "Task Manager",
+      description: "A comprehensive task management system with features for organizing, tracking, and completing personal and team projects.",
+      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80",
+      link: "#",
+    },
   ];
 
   return (
@@ -40,7 +58,8 @@ export default function Portfolio() {
                 key={project.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
+                whileHover={{ y: -10 }}
+                transition={{ duration: 0.3 }}
                 viewport={{ once: true }}
               >
                 <Card className="flex flex-col h-full">
