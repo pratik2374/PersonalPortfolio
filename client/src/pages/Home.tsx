@@ -15,10 +15,12 @@ export default function Home() {
     >
       <Navbar />
       <Hero />
-      <About />
-      <Services />
-      <Portfolio />
-      <Contact />
+      <div className="max-w-[80%] mx-auto">
+        <About />
+        <Services />
+        <Portfolio />
+        <Contact />
+      </div>
     </motion.div>
   );
 }
