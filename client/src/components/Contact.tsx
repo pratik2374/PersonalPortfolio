@@ -7,19 +7,19 @@ export default function Contact() {
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/pratik",
+      href: "https://github.com/pratik2374",
       color: "hover:text-gray-900 dark:hover:text-gray-100",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com/in/pratik",
+      href: "https://www.linkedin.com/in/pratikgond/",
       color: "hover:text-blue-600",
     },
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:pratik@example.com",
+      href: "mailto:pratikgond2005@gmail.com",
       color: "hover:text-red-500",
     },
   ];
