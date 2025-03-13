@@ -5,17 +5,17 @@ import { Code2, Film, Database } from "lucide-react";
 export default function Services() {
   const services = [
     {
-      title: "Website Development",
-      description: "I am a web developer specializing in Full-stack development, with a knack for crafting clean, maintainable code and seamless user experiences.",
+      title: "Generative AI",
+      description: "I have very good skills in Generative AI, specializing in creating innovative AI models and applications that push the boundaries of what's possible.",
       icon: Code2,
     },
     {
-      title: "3-D animations",
-      description: "I'm a 3D animator with a passion for bringing characters and environments to life. I specialize in creating captivating animations that combine technical precision with artistic creativity.",
+      title: "Machine Learning",
+      description: "With profound experience in Machine Learning, I excel in developing and deploying ML models that drive intelligent decision-making and automation.",
       icon: Film,
     },
     {
-      title: "Data structures",
+      title: "Data Structures",
       description: "I'm a software engineer with a deep understanding of data structures and algorithms. My expertise lies in designing efficient and scalable solutions for complex problems.",
       icon: Database,
     },

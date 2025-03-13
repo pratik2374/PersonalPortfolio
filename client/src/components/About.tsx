@@ -20,12 +20,12 @@ export default function About() {
           <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-muted-foreground mb-6">
-                Hi, I'm Pratik, a passionate web developer and coder with a knack for creating seamless
-                and engaging user experiences. With 5 years of experience in the tech world, I specialize
-                in Full-stack development, and I'm well-versed in a variety of programming languages and
-                frameworks.
-              </p>
+                <p className="text-muted-foreground mb-6">
+                Hi, I'm Pratik, a passionate software engineer with a knack for creating seamless
+                and engaging user experiences. With expertise in Generative AI and Machine Learning, I am
+                always eager to learn and apply that knowledge. I have a strong background in Full-stack
+                development and am well-versed in Java and Python (object-oriented programming languages).
+                </p>
               <p className="text-muted-foreground">
                 I take pride in building scalable and maintainable code, with a focus on clean architecture
                 and best practices. I enjoy solving complex problems and bringing innovative solutions to
