@@ -67,22 +67,22 @@ export default function About() {
                 RAG-based chatbot, and a documentation generator, showcasing my ability to build scalable and impactful solutions.
               </p>
 
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-6">
                 With a strong foundation in object-oriented programming, data analysis, and full-stack development, I am always eager
                 to learn, collaborate, and apply industry best practices. I take pride in writing efficient, maintainable code while pushing
                 the boundaries of innovation.
               </p>
-              <p className="text-muted-foreground mb-6">
-  I'm particularly fascinated by the capabilities of large language models and their integration into real-world tools.
-  Recently, I’ve been exploring LangGraph, vector databases, fine-tuning techniques, and multimodal applications that
-  bridge the gap between human interaction and machine intelligence.
-</p>
+                <p className="text-muted-foreground mb-6">
+                I'm particularly fascinated by the capabilities of large language models and their integration into real-world tools.
+                Recently, I’ve been exploring LangGraph, vector databases, fine-tuning techniques, and multimodal applications that
+                bridge the gap between human interaction and machine intelligence.
+              </p>
 
-<p className="text-muted-foreground">
-  Beyond coding, I’m driven by a desire to make technology more accessible and impactful. Whether it’s contributing to open-source,
-  participating in hackathons, or helping peers through technical content, I’m committed to growing as both a developer and a collaborator.
-  Let’s connect and create something meaningful!
-</p>
+              <p className="text-muted-foreground mb-6">
+                Beyond coding, I’m driven by a desire to make technology more accessible and impactful. Whether it’s contributing to open-source,
+                participating in hackathons, or helping peers through technical content, I’m committed to growing as both a developer and a collaborator.
+                Let’s connect and create something meaningful!
+              </p>
 
             </div>
             <div className="grid gap-4">
