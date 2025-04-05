@@ -39,7 +39,7 @@ export default function About() {
         "Generative AI",
         "Fine-Tuning",
       ],
-    },
+    }
   ];
 
 
