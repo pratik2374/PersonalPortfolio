@@ -6,17 +6,20 @@ export default function Services() {
   const services = [
     {
       title: "Generative AI",
-      description: "I have very good skills in Generative AI, specializing in creating innovative AI models and applications that push the boundaries of what's possible.",
+      description:
+        "Skilled in building Generative AI applications that replicate user writing styles, generate content, and even create images using diffusion models. Integrated with Langchain and Groq API to deliver context-aware outputs.",
       icon: Code2,
     },
     {
-      title: "Machine Learning",
-      description: "With profound experience in Machine Learning, I excel in developing and deploying ML models that drive intelligent decision-making and automation.",
+      title: "Machine Learning & Data Analysis",
+      description:
+        "Experienced in developing ML models for intelligent automation and decision-making. Projects include ecommerce sales analysis, prediction, and voice-enabled AI assistants using Scikit-Learn, Pandas, and Langchain.",
       icon: Film,
     },
     {
-      title: "Data Structures",
-      description: "I'm a software engineer with a deep understanding of data structures and algorithms. My expertise lies in designing efficient and scalable solutions for complex problems.",
+      title: "Data Structures & Algorithms",
+      description:
+        "Strong foundation in DSA and OOP, reflected in scalable, efficient code for real-world problems. Applied concepts in projects like AI chatbots, parking automation, and more.",
       icon: Database,
     },
   ];

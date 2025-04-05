@@ -3,10 +3,45 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function About() {
   const skills = [
-    { category: "Languages", items: ["JavaScript", "Python", "HTML", "CSS", "Java", "C"] },
-    { category: "Frameworks/Libraries", items: ["React", "Angular", "Vue", "Django"] },
-    { category: "Tools", items: ["Git", "Docker", "Visual Studio Code"] },
+    {
+      category: "Languages",
+      items: ["Python", "C", "Java", "Markdown"],
+    },
+    {
+      category: "Technologies & Frameworks",
+      items: [
+        "Langchain",
+        "Langraph",
+        "Flask",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "SQL",
+      ],
+    },
+    {
+      category: "Developer Tools",
+      items: [
+        "VS Code",
+        "Jupyter Notebook",
+        "GitHub",
+        "Arduino IDE",
+      ],
+    },
+    {
+      category: "Core Concepts",
+      items: [
+        "Object-Oriented Programming (OOP)",
+        "Data Structures & Algorithms (DSA)",
+        "Machine Learning",
+        "Natural Language Processing (NLP)",
+        "Data Analysis",
+        "Generative AI",
+        "Fine-Tuning",
+      ],
+    },
   ];
+
 
   return (
     <section id="about" className="py-20 bg-background">
@@ -20,17 +55,25 @@ export default function About() {
           <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-                <p className="text-muted-foreground mb-6">
-                Hi, I'm Pratik, a passionate software engineer with a knack for creating seamless
-                and engaging user experiences. With expertise in Generative AI and Machine Learning, I am
-                always eager to learn and apply that knowledge. I have a strong background in Full-stack
-                development and am well-versed in Java and Python (object-oriented programming languages).
-                </p>
-              <p className="text-muted-foreground">
-                I take pride in building scalable and maintainable code, with a focus on clean architecture
-                and best practices. I enjoy solving complex problems and bringing innovative solutions to
-                the table.
+              <p className="text-muted-foreground mb-6">
+                Hi, I'm Pratik, an aspiring software engineer passionate about AI, Machine Learning, and Generative AI.
+                Currently pursuing my B.Tech in Information Technology at NIT Kurukshetra, I enjoy solving complex problems
+                by leveraging cutting-edge technologies and innovative engineering solutions.
               </p>
+
+              <p className="text-muted-foreground mb-6">
+                My expertise includes Python, Java, and C, along with hands-on experience in frameworks like Flask, Langchain,
+                and Scikit-Learn. I have developed AI-powered applications such as an automated resume screening system, a
+                RAG-based chatbot, and a documentation generator, showcasing my ability to build scalable and impactful solutions.
+              </p>
+
+              <p className="text-muted-foreground">
+                With a strong foundation in object-oriented programming, data analysis, and full-stack development, I am always eager
+                to learn, collaborate, and apply industry best practices. I take pride in writing efficient, maintainable code while pushing
+                the boundaries of innovation.
+              </p>
+
+
             </div>
             <div className="grid gap-4">
               {skills.map((skillGroup) => (
