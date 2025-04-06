@@ -77,7 +77,7 @@ export default function Hero() {
             Hi, I'm Pratik
           </h1>
           <p className="text-xl md:text-2xl text-gray-300">
-            I am a professional Web Developer and Tech Enthusiast
+          I am an aspiring Software Engineer and AI Enthusiast
           </p>
         </motion.div>
       </div>
