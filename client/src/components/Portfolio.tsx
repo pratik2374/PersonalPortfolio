@@ -14,7 +14,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "LinkedIn Post Generator",
-      description: "An AI-powered system that analyzes writing patterns and generates LinkedIn posts using LangChain.",
+      description: "An AI-powered system that analyzes writing patterns and generates LinkedIn posts with images using LangChain.",
       image: one,
       link: "https://github.com/pratik2374/linkedin-post-genaror-with-image",
     },
